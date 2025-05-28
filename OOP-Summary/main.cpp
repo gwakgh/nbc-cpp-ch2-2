@@ -7,7 +7,7 @@ using namespace std;
 
 class Animal {
 public:
-	virtual void makeSound() { cout << "동물소리" << endl; }
+	virtual void makeSound() = 0;
 };
 
 class Dog : public Animal {
